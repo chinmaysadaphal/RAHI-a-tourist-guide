@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rahi-Tours and Travelers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/84e67a5a3d.js" crossorigin="anonymous"></script>
+
+    <style>
+        .b1 {
+            margin-left: 10px;
+        }
+
+        body {
+            background-color: rgb(241, 241, 240);
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .container1 {
+            margin-top: 250px;
+            margin-left: 80px
+        }
+
+        .container2 {
+            margin-top: 70px;
+            margin-left: 150px;
+        }
+
+        .img1 {
+            border-radius: 200px;
+            text-align: center;
+        }
+
+        hr {
+            margin-top: 80px;
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        table {
+            margin-top: 50px;
+            table-layout: fixed;
+
+        }
+
+
+        tr {
+            border: 2px solid rgb(6, 6, 6);
+            /* text-align: center; */
+
+        }
+
+        td {
+            border: 2px solid black;
+            width:33%
+        }
+
+        .footer {
+            padding-top: 20px;
+            width: 100%;
+            min-height: 40px;
+            text-align: center;
+            background: #e5e2e2;
+        }
+
+        @media (max-width:1143px) {
+
+            .container1 {
+                margin-top: 80px;
+                text-align: center;
+            }
+
+            .flex {
+                all: revert;
+                text-align: center;
+                flex-direction: column;
+            }
+
+            .container1{
+                all:revert;
+                margin-top: 100px;
+            }
+            .container2{
+                margin-top: 60px;
+                all:revert;
+            }
+            .img1 {
+                all:revert;
+                width: 85%;
+                height: 85%;
+            border-radius: 200px;
+            text-align: center;
+            align-items: center;
+        }
+
+        p{
+            font-size: 14px;
+            padding-left: 5px;
+        }
+
+        .f1{
+            margin-top: -20px;
+        }
+
+
+        }
+
+      
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">RAHI- THE TOURISUM WEBSITE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="firstPage.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#con">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                    
+                </ul>
+
+                <a href="signin.php"><input type="button" value="SignIn" class="btn btn-success b1"></input></a>
+                <a href="signup.php"><input type="button" value="SignUp" class="btn btn-success b1"></input></a>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="box">
+        <div class="bg1">
+
+            <!-- <img src="../img/everest1.jpg" alt="" class="img2" width="100%" height="100%" > -->
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="container1">
+            <h1>Rahi - Tours And Travelers</h1>
+            <p>Make your Tour Happy and Beautiful</p>
+        </div>
+        <div class="container2">
+            <img class="img1" src="vacation_img.jpg" width="100%" height="100%" >
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div class="container" id="con"> <!-- container used to leave margin from all the side  -->
+        <h1 class="text">Choose Your Trip</h1>
+        <h2>India</h2>
+        <div class="row">
+            <!-- each article independent identity to other  -->
+            <article class="card col">
+                <img class="card-img cardimg" src="img/banglore2.jpg" alt="" height="65%">
+                <h4 align="center">Banglore</h4>
+                <p>Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center
+                     of India.</p>
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+            <article class="card col">
+                <img class="card-img" src="img/delhi.jpg" alt="" height="65%">
+                <h4 align="center">Delhi</h4>
+                <p>Delhi, officially the National Capital Territory (NCT) of Delhi, is a city and a union territory 
+                    the capital of India.</p>
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+            <article class="card col">
+                <img class="card-img" src="img/nepal1.jpg" alt="" height="65%">
+                <h4 align="center">Nepal</h4>
+                <p>Nepal officially the Federal Democratic Republic of Nepal is a landlocked country in South Asia.</p>
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+        </div><br>
+        <h2>Europe</h2>
+        <div class="row">
+            <article class="card col">
+                <img class="card-img cardimg1" src="img/usa1.jpg" alt="" height="65%">
+                <h4 align="center">USA</h4>
+                <p>The United States of America, commonly known as the United States or
+                     America, is a country in North America.</p>
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+            <article class="card col">
+
+                <img class="card-img " src="img/everest1.jpg" alt="" height="65%">
+                <h4 align="center">Everest</h4>
+                <p>Everest base camp track is without a doubt, one of the most renowned travel destinations in the
+                    world.</p>
+
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+            <article class="card col">
+                <img class="card-img "  src="img/russia.jpg" alt="" height="65%">
+                <h4 align="center">Russia</h4>
+                <p>Russia or the Russian Federation, is a transcontinental country Eastern Europe.It is 
+                    the largest country</p>
+                <a href="signup.php" class="ctn">View Details</a>
+            </article>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1 class="text">All inclusive tours, Chalo Bag Bharo Nikal Pado!</h1>
+        <table border="1" cellspacing="0" align="center">
+
+            <tr>
+                <td >
+                    <div style="text-align: center;"><i class="fa-solid fa-building"></i>
+                        <div style="font-weight: bold; "> Accommodation </div> <br>
+                    </div>
+                   <p> Comfortable & convenient hotels cherry picked by our hotel management team</p>
+                </td>
+                <td>
+
+                    <div style="font-weight: bold; text-align: center;"><i class="fa-solid fa-burger"></i> <br> All
+                        meals </div><br>
+                        <p> Eat to your heart's content Breakfast. Lunch. Dinner.The meals are provided by us so dont worry!</p>
+                </td>
+                <td>
+
+                    <div style="font-weight: bold; text-align: center;"><i class="fa-solid fa-bus"></i> <br>
+                        On-tour  </div><br>
+                        <p>Our itineraries include all rail, sea and road transport as part of the itinerary so you can enjoy
+                    tension free</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div style="font-weight: bold; text-align: center; " class="f1"><i class="fa-solid fa-flag"></i> <br>
+                       The Tour managers </div><br>
+                       <p>We have an exclusive team of 350 tour managers specialising in India and World tours</p>
+                </td>
+                <td>
+
+                    <div style="font-weight: bold; text-align: center;"> <i class="fa-solid fa-truck-fast"></i> <br>
+                        Best value itinerary </div><br>
+                        <p>Our dedicated product & destination research team spends hours curating the best value for money
+                    itineraries</p>
+                </td>
+                <td>
+
+                    <div style="font-weight: bold; text-align: center;"> <i class="fa-solid fa-plane-departure"></i>
+                        <br>
+                        To and fro  </div><br>
+                        <p>Veena World tours are inclusive of airfare from many hubs within India unless you pick the
+                    joining-leaving option</p>
+                </td>
+            </tr>
+        </table>
+    </div> <br> <br>
+
+    <!--footer-->
+    <footer class="footer" id="footer">
+        <h2>Travelers And Tours</h2>
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>Looking to explore the world? We can help you with 'just' what you've been looking for.<br> Call/Whatsapp
+                our travel agents to gain the best travel experience there is on +91-1234567899</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

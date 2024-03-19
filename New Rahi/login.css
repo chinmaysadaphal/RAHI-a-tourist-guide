@@ -1,0 +1,80 @@
+ .container {
+     width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0, 0,50, 0.8), rgba(0,0,50, 0.8)), url(img/home.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+
+ .form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+ }
+
+ .form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(131, 6, 249);
+    font-weight: bold;
+    position: relative;
+ }
+
+ .input-field{
+    background: rgb(233, 222, 222);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;      /* display icons and input field in row*/
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+ }
+
+ input{
+    width: 100%;
+    background: transparent;  /*rgb(233, 222, 222) this color will reflect in text box*/
+    border:0;        /* border of text box will vanished*/
+    outline: 0;      /* After clicking the field box will not diplayed*/
+    padding: 10px;
+    padding-left: 20px;
+ }
+
+ .input-field i{
+    margin-left: 15px;
+    color: rgb(242, 84, 192);
+ }
+
+ form p{
+    text-align: left;
+    font-size: 13px;
+ }
+
+ /* Ancor tag of form */
+ form p a{
+    text-decoration: none;  /*Delete the underline of the anchor tag*/
+    color: #3c00a0;
+ }
+
+ .btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .btn-field input{
+    background: #3c00a0;
+    flex-basis: 48%;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    transition: background 1s;
+ }
